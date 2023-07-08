@@ -26,7 +26,7 @@ SECRET_KEY = '=9*we)!_9^qffj_ajsa&qvk($5skrze!-kvx^iv+%#d@i3jt4g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['carzone-project.onrender.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
