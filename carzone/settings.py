@@ -32,6 +32,7 @@ LOGIN_REDIRECT_URL = 'dashboard'
 # Application definition
 
 INSTALLED_APPS = [
+    'contacts.apps.ContactsConfig',
     'accounts.apps.AccountsConfig',
     'cars.apps.CarsConfig',
     'pages.apps.PagesConfig',
@@ -93,7 +94,7 @@ DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'carzone_db',
+        'NAME': 'car_zone_db',
         'USER': 'postgres',
         'PASSWORD': '@1bertffC',
         'HOST': 'localhost',
@@ -156,3 +157,10 @@ MESSAGE_TAGS = {
 SITE_ID = 1
 
 SOCIALACCOUNT_LOGIN_ON_GET=True
+
+# Email Sending
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'majidcarter007@gmail.com'
+EMAIL_HOST_PASSWORD = 'cbsrrhymnmdcezdv'
+EMAIL_USE_TLS = True
