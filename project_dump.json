@@ -1,0 +1,728 @@
+[
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "joe",
+        "last_name": "joe",
+        "car_id": 5,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "2018 Toyota 4Runner",
+        "city": "Dallas",
+        "state": "texas",
+        "email": "joe@gmail.com",
+        "phone": "1234567898",
+        "message": "i need more information about this",
+        "user_id": 2,
+        "create_date": "2023-07-06T13:59:06.853"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "joe",
+        "last_name": "joe",
+        "car_id": 6,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "2018 Toyota Corolla",
+        "city": "dallas",
+        "state": "texas",
+        "email": "joe@gmail.com",
+        "phone": "",
+        "message": "need more info about this",
+        "user_id": 2,
+        "create_date": "2023-07-06T17:19:03.407"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "majid",
+        "last_name": "azhakan",
+        "car_id": 3,
+        "customer_need": "I'd like a history report for this",
+        "car_title": "2017 Ford F-250 Super Duty",
+        "city": "Dallas",
+        "state": "California",
+        "email": "majidcarter007@gmail.con",
+        "phone": "",
+        "message": "test",
+        "user_id": 4,
+        "create_date": "2023-07-06T20:31:09.786"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "CA",
+        "city": "Los Angeles",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 100000,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\">[8]</a></p>",
+        "car_photo": "photo/2023/07/06/1902536891.jpg",
+        "car_photo_1": "photo/2023/07/06/1902536917.jpg",
+        "car_photo_2": "photo/2023/07/06/1902537043.jpg",
+        "car_photo_3": "photo/2023/07/06/1902537077.jpg",
+        "car_photo_4": "photo/2023/07/06/1902537082.jpg",
+        "feature": "Audio Interface,Airbags,Air Conditioning,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "Sport",
+        "engine": "3.9L V8",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 12000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "1C6SRFFT8LN218916",
+        "mileage": 4,
+        "fuel_type": "Petrol",
+        "no_of_owner": "1",
+        "is_featured": true,
+        "created_date": "2023-07-06T12:38:09"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "CA",
+        "city": "San Francisco",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 20000,
+        "description": "<p>The&nbsp;<strong>Ford Edge</strong>&nbsp;is a range of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUVs</a>&nbsp;manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduced for the 2007 model year, the Edge is the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV</a>&nbsp;marketed by Ford in North America; the model line is currently in its second generation. Deriving its name from a trim package of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger</a>, the Ford Edge is positioned between the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" title=\"Ford Escape\">Ford Escape</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer</a>&nbsp;within the Ford product line.</p>\r\n\r\n<p>Sharing its underpinnings with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)\" title=\"Ford Fusion (Americas)\">Ford Fusion sedan</a>, Ford has also produced the model line as the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lincoln_MKX\" title=\"Lincoln MKX\">Lincoln MKX</a>&nbsp;(since 2019, the Lincoln Nautilus). The second generation is also marketed by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_of_Europe\" title=\"Ford of Europe\">Ford of Europe</a>, positioned between the Kuga (Escape) and the Explorer PHEV.</p>\r\n\r\n<p>All production of the first two generations of the Ford Edge is sourced from&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company_of_Canada\" title=\"Ford Motor Company of Canada\">Ford of Canada</a>&nbsp;at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Oakville_Assembly\" title=\"Oakville Assembly\">Oakville Assembly</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Oakville,_Ontario\" title=\"Oakville, Ontario\">Oakville, Ontario</a>) alongside the Nautilus.</p>\r\n\r\n<p>The third generation launched in 2023 is called the Edge L, and was first produced and sold exclusively in China.</p>",
+        "car_photo": "photo/2023/07/06/1901478607.jpg",
+        "car_photo_1": "photo/2023/07/06/1901478618.jpg",
+        "car_photo_2": "photo/2023/07/06/1901478646.jpg",
+        "car_photo_3": "photo/2023/07/06/1901478672.jpg",
+        "car_photo_4": "photo/2023/07/06/1901478687.jpg",
+        "feature": "Air Conditioning,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.5L V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 40000,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "2B6SRFFT8LN218990",
+        "mileage": 10,
+        "fuel_type": "Petrol",
+        "no_of_owner": "2",
+        "is_featured": false,
+        "created_date": "2023-07-06T12:44:25"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "TX",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "F-250 Super Duty",
+        "year": 2018,
+        "condition": "Used",
+        "price": 40000,
+        "description": "<p>The&nbsp;<strong>thirteenth-generation Ford F-Series</strong>&nbsp;is a range of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Pickup_truck\" title=\"Pickup truck\">pickup trucks</a>&nbsp;produced by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford</a>. Introduced for the 2015 model year, this generation of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">F-Series</a>&nbsp;is the first aluminum-intensive vehicle produced on a large scale by an American vehicle manufacturer. For the 2017 model year, the fourth-generation Super Duty line adopted the cab design of the F-150, consolidating the cab design for the first time on Ford light-duty trucks (F-550 and below) for the first time since the 1996 model year; the Super Duty trucks still retain separate bodywork and a higher-GVWR frame.</p>\r\n\r\n<p>After a two-year hiatus, a second generation of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Raptor\" title=\"\">Ford Raptor</a>&nbsp;made its return for 2017 as a high-performance variant of the F-150, dropping the SVT prefix). In Mexico, the F-Series XL trim is marketed as the&nbsp;<em>F-150</em>, XLT and higher trims are named&nbsp;<em>Lobo</em>&nbsp;(Wolf in Spanish).<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series_(thirteenth_generation)#cite_note-6\">[6]</a>&nbsp;The Mexican-market&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lincoln_Mark_LT\" title=\"Lincoln Mark LT\">Lincoln Mark LT</a>&nbsp;was discontinued completely, replaced by the Limited and Platinum trims sold elsewhere.</p>\r\n\r\n<p>The thirteenth-generation F-Series is produced by Ford in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Claycomo,_Missouri\" title=\"Claycomo, Missouri\">Claycomo, Missouri</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Ford_Kansas_City_Assembly_Plant\" title=\"Ford Kansas City Assembly Plant\">Kansas City Assembly</a>) alongside the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Transit\" title=\"Ford Transit\">Ford Transit</a>&nbsp;van and at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Dearborn,_Michigan\" title=\"Dearborn, Michigan\">Dearborn, Michigan</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Ford_River_Rouge_Complex\" title=\"Ford River Rouge Complex\">Dearborn Truck Plant</a>).</p>",
+        "car_photo": "photo/2023/07/06/1894300894.jpg",
+        "car_photo_1": "photo/2023/07/06/1894300905.jpg",
+        "car_photo_2": "photo/2023/07/06/1894300920.jpg",
+        "car_photo_3": "photo/2023/07/06/1900155012.jpg",
+        "car_photo_4": "photo/2023/07/06/1900155133.jpg",
+        "feature": "Air Conditioning,Seat Heating,Alarm System,Power Steering,Reversing Camera,Direct Fuel Injection,Wind Deflector,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.3L V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 25000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "6T6SRFFT8LN218990",
+        "mileage": 6,
+        "fuel_type": "Petrol",
+        "no_of_owner": "1",
+        "is_featured": true,
+        "created_date": "2023-07-06T12:48:09"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "TX",
+        "city": "Houston",
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": 35000,
+        "description": "<p>The Jaguar F-Pace is available with one of three different engines, two of which give the Jaguar excellent acceleration and one of which provides the Jaguar with surprising fuel economy. For those looking to save on gasoline, the F-Pace is available with a 2.0L turbocharged 4-cylinder diesel engine. Like most diesel engines, it combines a somewhat middling power output with a torque figure that may cause a double take. Horsepower is rated at 180, while torque is rated at 317 lb-ft.<br />\r\n<br />\r\nThe base gasoline engine is a 3.0L Supercharged V6, rated at 340 horsepower, with power sent to all-four wheels. Acceleration with this engine is on par with most sports cars, with 60 mph achieved in a claimed 5.4 seconds. For some though, that won&#39;t be enough and for those buyers, Jaguar offers a more powerful version of their 3.0L Supercharged V6 making 380 horsepower. 0-60 mph comes up in 5.1 seconds for the more powerful Jaguar F-Pace. All engines available on the F-Pace send power to all-four wheels via an 8-speed automatic gearbox.<br />\r\n&nbsp;</p>",
+        "car_photo": "photo/2023/07/06/1902932503.jpg",
+        "car_photo_1": "photo/2023/07/06/1902932514.jpg",
+        "car_photo_2": "photo/2023/07/06/1902932528.jpg",
+        "car_photo_3": "photo/2023/07/06/1902932542.jpg",
+        "car_photo_4": "photo/2023/07/06/1902932503_7ehPad8.jpg",
+        "feature": "Air Conditioning,Alarm System,ParkAssist,Power Steering,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "2.4L V4",
+        "transmission": "Manual",
+        "interior": "Grey",
+        "miles": 50000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "3T6SRFFT8LN218979",
+        "mileage": 10,
+        "fuel_type": "Petrol",
+        "no_of_owner": "3",
+        "is_featured": true,
+        "created_date": "2023-07-06T12:51:33"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "TX",
+        "city": "Dallas",
+        "color": "Silver",
+        "model": "4Runner",
+        "year": 2018,
+        "condition": "Used",
+        "price": 45000,
+        "description": "<p>Seven 4Runner&nbsp;<a href=\"https://www.autoblog.com/buy/2018-Toyota-4Runner/specs/\">trims&nbsp;</a>are available for 2018: the base SR5, TRD Off-Road, TRD Off-Road Premium, TRD Enhancement, Wilderness, TRD Pro Series Edition and Limited.<br />\r\n<br />\r\nThe engine on all trims is a 4.0L V6 making an impressive 270 horsepower and 278 pound-feet of torque. The standard transmission is a 5-speed automatic. The SR5 and Limited can get either rear-wheel drive or 4-wheel drive (part-time on the SR5, full-time on the Limited).<br />\r\n<br />\r\nStandard&nbsp;<a href=\"https://www.autoblog.com/buy/2018-Toyota-4Runner/safety-features/\">safety features&nbsp;</a>include antilock 4-wheel disc brakes with brake assist, stability control, traction control, anti-skid system, active front head restraints, front knee airbags, front-seat side airbags and full-length roll-sensing side curtain airbags.<br />\r\n<br />\r\nToyota&#39;s A-TRAC system is standard on all 4-wheel-drive trims, which can distribute driving force to any one wheel in contact with the ground, making rough driving much smoother. Four-wheel-drive trims also get standard Downhill Assist Control. Trail trims also get Toyota&#39;s Crawl Control, which regulates the vehicle&#39;s speed in severe off-road conditions and Toyota&#39;s Multi-Terrain Select system, which allows drivers to manually adjust the 4-wheel drive hardware to suit their needs.</p>",
+        "car_photo": "photo/2023/07/06/1893633875.jpg",
+        "car_photo_1": "photo/2023/07/06/1893633879.jpg",
+        "car_photo_2": "photo/2023/07/06/1893633884.jpg",
+        "car_photo_3": "photo/2023/07/06/1896836883.jpg",
+        "car_photo_4": "photo/2023/07/06/1896836887.jpg",
+        "feature": "Airbags,Seat Heating,Reversing Camera,Direct Fuel Injection",
+        "body_style": "SUV",
+        "engine": "4.0L V6",
+        "transmission": "Manual",
+        "interior": "Grey",
+        "miles": 25000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "4T6SRFFT8LN218990",
+        "mileage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owner": "1",
+        "is_featured": false,
+        "created_date": "2023-07-06T12:55:09"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "CA",
+        "city": "Los Angeles",
+        "color": "White",
+        "model": "Corolla",
+        "year": 2018,
+        "condition": "Used",
+        "price": 15000,
+        "description": "<p>When it comes to long-running nameplates, the Toyota Corolla has few peers. It was first introduced as part of a wave of imported Japanese economy cars in the U.S. in 1968. While peers like the Datsun 411 and Honda N600 didn&#39;t last as long, contemporary successors like the Nissan Sentra and Honda Civic are serious competition for the venerable Corolla. Known for its fuel-efficiency and dependability, the Corolla is the No. 1 best-selling car of all time, having hit the 40 million sales mark in 2013. After 11 generations, the Corolla is Toyota&#39;s second-highest selling car behind the venerable Camry midsize sedan. It comes in five&nbsp;<a href=\"https://www.autoblog.com/buy/2018-Toyota-Corolla/specs/\">trim levels</a>&nbsp;&mdash; L, LE, SE, XLE and XSE &mdash; plus the LE Eco, a sporty and more fuel-efficient variant. This guide aims to help you make an educated decision about whether or not to buy the 2018 Toyota Corolla. We&#39;ll touch on safety and reliability ratings, engine specs, horsepower, fuel economy ratings and pricing, and we&#39;ll conclude with a summary of what the Autoblog editors who&#39;ve reviewed the Corolla think of it. Note that this guide does not cover the Corolla iM hatchback or its recently-announced replacement, the 2019 Corolla Hatchback. There are enough differences between these two and the regular Corolla to warrant a separate guide</p>",
+        "car_photo": "photo/2023/07/06/1900893299.jpg",
+        "car_photo_1": "photo/2023/07/06/1900893311.jpg",
+        "car_photo_2": "photo/2023/07/06/1900893319.jpg",
+        "car_photo_3": "photo/2023/07/06/1900893329.jpg",
+        "car_photo_4": "photo/2023/07/06/1900893391.jpg",
+        "feature": "Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System",
+        "body_style": "HatchBack",
+        "engine": "2.4L V4",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 25000,
+        "doors": "5",
+        "passengers": 4,
+        "vin_no": "9T6SRFFT8LN218990",
+        "mileage": 13,
+        "fuel_type": "Petrol",
+        "no_of_owner": "1",
+        "is_featured": false,
+        "created_date": "2023-07-06T12:57:44"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Josh",
+        "last_name": "Morris",
+        "designation": "Founder",
+        "photo": "photos/2023/07/06/avatar-1.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "created_date": "2023-07-06T12:33:59.044"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Katherine",
+        "last_name": "Langford",
+        "designation": "Co-founder",
+        "photo": "photos/2023/07/06/avatar-2.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "created_date": "2023-07-06T12:35:31.144"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Thomas",
+        "last_name": "Clarke",
+        "designation": "CEO",
+        "photo": "photos/2023/07/06/avatar-3.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "created_date": "2023-07-06T12:35:55.006"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "George",
+        "last_name": "Thomas",
+        "designation": "Manager",
+        "photo": "photos/2023/07/06/avatar-12.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "created_date": "2023-07-06T12:36:56.331"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Smith",
+        "last_name": "Watson",
+        "designation": "Operations Executive",
+        "photo": "photos/2023/07/06/avatar-11.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "created_date": "2023-07-06T12:37:42.379"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$TfSq0gAFlz0Bu8uxUR0ccb$2Bew+oK/zTknYRR2esdFhqLpnXokhv8TSBYS0ul/QMY=",
+        "last_login": "2023-07-08T11:41:24.171",
+        "is_superuser": true,
+        "username": "majidadmin",
+        "first_name": "",
+        "last_name": "",
+        "email": "majidak347@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-07-06T12:27:08.237",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ONeMuD6LFz4xtSIi0nZ25s$3gyIORkwULNPcLXBmu6tGrSg66D0ctWfSlP4UoMjTs8=",
+        "last_login": "2023-07-06T19:43:07.025",
+        "is_superuser": false,
+        "username": "joejoe",
+        "first_name": "joe",
+        "last_name": "joe",
+        "email": "joe@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-06T13:02:44.840",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$LQKp4KCWlxDkl2VQEZnmHf$DRtNDemaMqEgdmTeX0A2TF86SfuCg/LtSzO3OhPzyHU=",
+        "last_login": "2023-07-06T19:55:12.045",
+        "is_superuser": false,
+        "username": "majidak",
+        "first_name": "majid",
+        "last_name": "ak",
+        "email": "majidak8055@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-06T19:48:35.476",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$BEa0NZzVG9GJ58HWf6BOa4$fEZZPJEiZS3pRoKh1EoTOoThEorWZ+klfnyPXoRsA68=",
+        "last_login": "2023-07-07T11:15:03.196",
+        "is_superuser": false,
+        "username": "majidazhakan",
+        "first_name": "majid",
+        "last_name": "azhakan",
+        "email": "majidcarter007@gmail.con",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-06T20:20:43.017",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ry04q8pgtsc7cm54iw6d53dzl7nbygu4",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyFCWRCP3vsNZFlYqRpISnsy_rtt0oPOcd6beYuA61LC2vMcpiSuQonTbxeRnrnuID2w3pukVpd5inJX5EG7HFvKr9vh_h0U7GVbZ4UOBnbIjoGQODuyWy5gUIN23hpQPoNhRs1svLbk40B8VhyZB_H5AvYLOIE:1qI1AC:YB5hyEJKpiqLK_FroZ84G-S889xLZhlDFsNbOLBKk2g",
+        "expire_date": "2023-07-22T11:41:24.179"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook Login",
+        "client_id": "1192201144810528",
+        "secret": "eb0a0ed4344aa96b142ab544dd72dda8",
+        "key": "",
+        "sites": [
+            [
+                "example.com"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "633461863260-ifbq0smktifp0jgjdn061o670dqmi2k8.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "example.com"
+            ]
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-07-06T12:33:59.052",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Josh",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-07-06T12:35:31.144",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Katherine",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-07-06T12:35:55.006",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Thomas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-07-06T12:36:56.331",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "George",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-07-06T12:37:42.387",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Smith",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-07-06T12:44:06.141",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-07-06T12:47:50.941",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-07-06T12:50:59.110",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-07-06T12:54:29.400",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-07-06T12:57:10.894",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-07-06T13:00:40.019",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-07-06T13:08:58.290",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-07-06T13:10:07.529",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-07-06T13:21:46.800",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-07-06T13:57:08.040",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "joe@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-07-08T11:42:20.977",
+        "user": [
+            "majidadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+}
+]
